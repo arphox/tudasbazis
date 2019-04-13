@@ -1,4 +1,4 @@
-# Milyen programozási nyelvet válasszak?
+# Melyik programozási nyelvet válasszam?
 Mielőtt megnéznénk a választási lehetőségeket, nézzük meg azt, hogy hogyan csoportosítjuk a programozási nyelveket.
 
 ## Csoportosítás
