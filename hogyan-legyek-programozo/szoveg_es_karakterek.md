@@ -16,3 +16,5 @@ Témakörök:
 hogy láthasd, hogy egyes karaktereket melyik kódolás milyen bájtokkal ábrázolja.
 
 > Alkalmas erre például az elterjedt [Total Commander](https://www.ghisler.com/) program `Lister` funkciója (F3 megnyomására érhető el alapbeállításként), amit ha megnyitsz és megnyomod a 3-as számbillentyűt, máris láthatod a bájtokat hexában.
+
+> Ennél egy picit profibb és céleszköz pedig az ingyenes [HxD Editor](https://mh-nexus.de/en/hxd/). Előzőhöz hasonló módon egyszerre mutatja a hexadecimális karaktereket és a szöveges megfelelőjét is.
