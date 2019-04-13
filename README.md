@@ -13,6 +13,9 @@ A repo alapelvei a következők:
 1. **Egyszerű linkelhetőség**: a repo tartalmát úgy kell tagolni, hogy a különböző tartalmak egyszerűen linkelhetőek legyenek, pl. a facebook-csoporton belül.
 1. **Magyar nyelv**: a repo magyar embereknek szól, magyar emberektől. A szakkifejezéseknek mindig a magyar körökben leggyakrabban használt formáját használjuk (például: Függőség-befecskendezés helyett Dependency Injection).
 
+## Hozzájárulás
+Ha hozzá szeretnél járulni a tudásbázis tartalmához, azt [**Pull Request**](https://help.github.com/en/articles/about-pull-requests)-ként teheted meg. De készíthetsz **Issue**-t is, ahol bedobhatod az ötleteidet, vagy megvitathatsz bármit.
+
 ## Egyéb
 **Milyen jellegű tartalom kerüljön a repoba?**:
 1. Link/cím gyűjtemények, felsorolások: például ilyenekről:
