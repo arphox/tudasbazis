@@ -67,7 +67,8 @@ Ha beágyazott hardverre szeretnél programot írni, alacsonyabb szintre kell me
 Itt egyértelműen C-vel érdemes kezdeni, de ha alternatívákat szeretnél, ezeket is megnézheted: C++, Java, Python, Rust; vagy ha nagyon alacsony szinten kezdenél: Assembly
 
 ### 3. Mobilalkalmazások programozás
-Itt leginkább a **Java** javasolt kezdésnek. Ha nagyon iOS-re szeretnél fejleszteni, akkor inkább **Swift**. Még több választási lehetőség: C++, C#, JavaScript, Python
+Itt leginkább a **Java** javasolt kezdésnek.
+Ha iOS-re szeretnél fejleszteni, akkor **Swift**. Még több választási lehetőség: Kotlin, C++, C#, JavaScript, Python
 
 ### 4. Asztali alkalmazások (általános célú nyelvek)
 Ha nem tudod még, hogy mivel akarsz foglalkozni, csak "simán" meg akarsz tanulni programozni, az alábbi a nyelveket ajánljuk.
