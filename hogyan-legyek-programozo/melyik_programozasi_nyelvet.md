@@ -39,6 +39,14 @@ Ezeknél valamivel kevesebb ráhatásod van arra, hogy mi történik a háttérb
 Viszont, biztonsági rés még mindig lehet a futtatókörnyezetben, és te nem igazán tehetsz ellene semmit, amíg a futtató környezet fejlesztői ki nem javítják azt.
 De ezek miatt általában nem kell aggódni.
 
+### Implementáció szempontjából
+Egy programozási nyelv [implementációja](https://en.wikipedia.org/wiki/Programming_language_implementation) annak futtatási módját határozza meg.
+Ehhez két megközelítést alkalmaznak, habár a hibrid megoldások (JIT/AOT compilerek) is gyakoriak:
+- fordítás ("compiler"): a forráskódot a compiler lefordítja egy másik kódra, amit majd a következő réteg majd fordít/interpretál.
+- interpretálás ("interpreter"): a forráskódot közvetlenül, utasításonként (vagy tetszőleges blokkonként) értelmezi és azonnal futtatja.
+
+> _Érdekesség_: a legalacsonyabb, még nem elektronikai szinten azaz a processzor mikroarchitektúrájának szintjén interpretálás zajlik: a processzor folyamatosan kapja az utasításokat majd azonnal végrehajtja őket.
+
 ----------------------------------------------------
 
 ## Kezdőknek ajánlott programozási nyelvek
