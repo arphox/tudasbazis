@@ -20,3 +20,7 @@ Nagyon hasznos ezek mellett a "mindent tudni/megérteni akaró" hozzáállás. T
 
 Az ebben a könyvtárban lévő összes többi fájl a fejlesztői tudás egyik részét/aspektusát mutatja be.
 A sorszámok nagyjából haladási sorrendet jelölnek, de természetesen a tudás nem ennyire lineárisan épül egymásra, szóval inkább úgy tekints a számokra, hogy **minél alacsonyabb a szám, a téma annál "alapabb" tudásnak tekinthető, míg a magasabb számok mélyebbre menő területeket érintenek**.
+
+## Hour of Code feladatok
+Ha szeretnéd játszva megtanulni az algoritmikus gondolkodás alapjait, akkor ajánlott az [Hour of Code](https://hourofcode.com/hu/learn) kezdeményezés feladatait kipróbálni.
+Ezek a "játékok" úgy készültek, hogy a gyerekek is használni tudják őket, de ettől függetlenül felnőtteknek is határozottan képesek kihívást biztosítani.
