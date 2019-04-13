@@ -1,4 +1,4 @@
-# 02 - Szöveg és karakterek
+# Szöveg és karakterek
 
 A bináris számítógép _mindent_ bináris számok formájában tárol, így a szöveget és karaktereket is.
 Ennek megfelelően minden fejlesztőnek tudnia **kell** a karaktertáblák létezéséről.
