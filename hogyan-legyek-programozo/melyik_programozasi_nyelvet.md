@@ -42,6 +42,7 @@ De ezek miatt általában nem kell aggódni.
 ----------------------------------------------------
 
 ## Kezdőknek ajánlott programozási nyelvek
-Van egy ilyen kép az interneten
+Van egy [kép](kepek/melyik_programozasi_nyelvet.png) az interneten, amelyet érdemes átfutni, habár fenntartásokkal kell kezelni, helyenként elfogult lehet.
 
 > Fontos, hogy a következő nyelvek között semmilyen sorrendiség nem áll fent. A szöveg jellege miatt nem tudjuk őket egymás mellett ábrázolni, csak egymás alatt; így mindenképpen az egyiknek elsőnek kell lennie.
+
