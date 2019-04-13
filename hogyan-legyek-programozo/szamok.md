@@ -1,4 +1,4 @@
-# 01 - Számok
+# Számok
 
 Mivel minden számítógépes program számokkal dolgozik, érdemes megérteni, hogy ez _legalább nagy vonalakban_ hogyan történik.
 
