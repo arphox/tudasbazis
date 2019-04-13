@@ -1,4 +1,4 @@
-# 03 - Informatikai területek
+# Informatikai területek
 
 ## Bevezető
 Az "informatika" tág fogalom. A szakmának számos része, ága van;
