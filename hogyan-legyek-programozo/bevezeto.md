@@ -1,6 +1,8 @@
 # Bevezető
 Ez a bevezető nagy részt a csoportban található [Mit érdemes átnézned, hogyha programozó szeretnél lenni?](https://www.facebook.com/notes/programoz%C3%B3k/mit-%C3%A9rdemes-%C3%A1tn%C3%A9zned-hogyha-programoz%C3%B3-szeretn%C3%A9l-lenni/1049311835185977/) című dokumentum alapján készült.
 
+Amennyiben felmérnéd a szintedet, [itt](http://sijinjoseph.com/programmer-competency-matrix/) nézelődj.
+
 ## Mennyi ideig fog tartani?
 Ezt a szakmát nem lehet egy éjszaka alatt elsajátítani, azonban ha szorgalmas vagy, az alapokat néhány hónap alatt meg tudod tanulni.
 Fontos már az elején tudni, hogy ha sikeres szeretnél lenni ebben a szakmában, fel kell készülnöd az **élethosszig tartó tanulásra**.
