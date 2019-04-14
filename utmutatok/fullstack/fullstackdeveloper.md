@@ -8,48 +8,45 @@ A webes, illetve a webes alkalmazásfejlesztés hatalmasat fejlődött az elmúl
 
 A fullstack fejlesztő az alkalmazás összes rétegét és annak összes stackjét ismeri: 
 
-- Szerver, Network, és hoszting ismerete
-- alkalmazás skálázhatóságának imserete 
+- Szerver, hálózat, és hosting ismerete
+- alkalmazás skálázhatóságának ismerete 
 - cloud storage ismerete
 - adat redundancia 
-- adat modellek imserete
+- adat modellek ismerete
 - relációs, nem relációs adatbázisok ismerete
 - üzleti logika ismerete
-- api réteg ismerete
-- mvc pattern ismerete 
+- API réteg ismerete
+- MVC pattern ismerete 
 - clean code alkalmazása 
 - user interface átfogó ismerete 
 - modern frameworkok ismerete 
 - user experience 
-- tisztában lenni az végfelhasználó igényeivel
+- tisztában lenni a végfelhasználó igényeivel
 
-## Az alapok
+## Alapok
 
-### Bővebben 
+### HTML
 
-A `HTML` (azaz `The Hypertext Markup Language`) az alapja minden weboldalnak, vagy webalkalmazásnak. A `HTML` határozza meg a weboldal (vagy webapp) szerkezetét, struktúráját, és a tartalmát. 
+A `HTML` (azaz `HyperText Markup Language`) az alapja minden weboldalnak, vagy webalkalmazásnak. A `HTML` határozza meg a weboldal (vagy webapp) szerkezetét, struktúráját, és a tartalmát. 
 
-A `HTML` fájl `tag`-ekből, áll, aminek alapvetően két típusát különböztetjük meg:
+A `HTML` fájl `tag`-ekből áll, aminek alapvetően két típusát különböztetjük meg:
 
-1) Önzáró tagek (_self-closing_)
+1. Önzáró tagek (_self-closing_)
 
-Pl.: 
-
+Pl.:
 ```
 <img src="./images/logo.png" alt="logo" />
 ```
 
-2) 
-
-1) Nem önzáró tagek (_self-closing_)
+2. Nem önzáró tagek (_non self-closing_)
 
 ```
 <span>hello worlds</span>
 ```
 
-A `HTML` tageket _tulajdonságokkal_ más néven attribútumokkal tudjuk ellátni. A fenti példában, az `img` tag-nak az `src` (azaz _source_, forrás) egy attribútuomat, ami meghatározza, a fájl nevét, és a hozzá vezető útvonalat. 
+A `HTML` tageket _tulajdonságokkal_ (más néven attribútumokkal) tudjuk ellátni. A fenti példában, az `img` tag-nak az `src` (azaz _source_, forrás) egy attribútuma, ami meghatározza a fájl nevét, és a hozzá vezető útvonalat. 
 
-Vannak alapvető szabályok, amiket be kellt tartani `HTML` írása közben, ilyen például az a szabyályrendszer ami leírja, hogy adott elemnek milyen _leszármazottjai_ lehetnek.
+Vannak alapvető szabályok, amiket be kell tartani `HTML` írása közben, ilyen például az a szabyályrendszer ami leírja, hogy adott elemnek milyen _leszármazottjai_ lehetnek.
 
 Például: 
 
@@ -63,10 +60,10 @@ _helytelen_:
 
 Ugyanis az `a` tag nem tartalmazhat `label` taget. Az ilyen, és ehhez hasonló hibák kijavítására való a [`w3c validator`](https://validator.w3.org/).  
 
-
 Az összes `HTML` tag-ről elérhető egy teljes lista [itt](https://www.tutorialrepublic.com/html-reference/html5-tags.php)
 
-A `CSS` (azaz `Cascading Style Sheet`) egy egyszerű módszer arra, hogyan adjunk _stílust_ az oldalainkoz, amivel definiáljuk, hogy mi hogyan nézzen ki. 
+### CSS
+A `CSS` (azaz `Cascading Style Sheets`) egy egyszerű módszer arra, hogy _stílusokat_ adjunk az oldalainkoz, amikkel definiáljuk, hogy mi hogyan nézzen ki. 
 
 A stíluslapokon stílusmegadásokkal (stílusdefiníciókkal) formázhatjuk meg a kívánt oldalelemeket: a böngésző az itt megadott definíciók alapján fogja megjeleníteni az oldalt. A böngészők nem teljesen kompatibilisek egymással a stíluslapok használatát illetően, ezért teszteljük oldalainkat a több böngészőben, ha lehetséges, illetve a 4-esnél kisebb verziójú böngészőkben is.
 
@@ -108,7 +105,7 @@ A `CSS` definíciókat `.css` fájlokban tároljuk, amit aztán hozzá kell adnu
 
 ## CSS 
 
-### Preprocesszorok
+### Preprocesszor
 
 * [`dart-sass`](https://github.com/sass/dart-sass)
 * [`less`](https://github.com/less/less.js)
@@ -117,7 +114,7 @@ A `CSS` definíciókat `.css` fájlokban tároljuk, amit aztán hozzá kell adnu
 * [`css-in-js`](https://github.com/cssinjs/jss)
 * [`emotion`](https://github.com/emotion-js/emotion)
 
-### CSS frameworks 
+### CSS framework
 
 * [`bulma`](https://github.com/jgthms/bulma)
 * [`foundation`](`https://github.com/zurb/foundation-sites)
@@ -126,12 +123,12 @@ A `CSS` definíciókat `.css` fájlokban tároljuk, amit aztán hozzá kell adnu
 * [`Flexbox Grid`](https://github.com/kristoferjoseph/flexboxgrid)
 * [`sharps`](https://github.com/awinogradov/sharps)
 
-### Task runners 
+### Task runner
 
-* [`npm scripts`](https://docs.npmjs.com/misc/scripts)
-* [`gulp`](https://github.com/gulpjs/gulp)
+- [`npm scripts`](https://docs.npmjs.com/misc/scripts)
+- [`gulp`](https://github.com/gulpjs/gulp)
 
-### Javascript
+### Javascript
 
 * [`ES6`](https://www.ecma-international.org/ecma-262/6.0/)
 * [`ES7`](https://www.ecma-international.org/ecma-262/7.0/)
@@ -153,16 +150,16 @@ A `CSS` definíciókat `.css` fájlokban tároljuk, amit aztán hozzá kell adnu
 
 ### JS State 
 
-* [`redux`](https://github.com/reduxjs/redux)
-* [`mobx`](https://github.com/mobxjs/mobx)
-* [`rxjs`](https://github.com/ReactiveX/rxjs)
-* [`flux`](https://github.com/facebook/flux)
+- [`redux`](https://github.com/reduxjs/redux)
+- [`mobx`](https://github.com/mobxjs/mobx)
+- [`rxjs`](https://github.com/ReactiveX/rxjs)
+- [`flux`](https://github.com/facebook/flux)
 
-### Module Lodader & Bundler
+### Module Loader & Bundler
 
 * [`webpack`](https://github.com/webpack)
 
-### Design Patterns 
+### Design Patterns (tervezési minták)
 
 * [`Revealing Prototype Pattern`](https://gist.github.com/zcaceres/bb0eec99c02dda6aac0e041d0d4d7bf2)
 
