@@ -193,8 +193,8 @@ Ha használni szeretnénk valamilyen modern `javascript` frameworkot, ez a megk�
 
 * [`ES6`](https://www.ecma-international.org/ecma-262/6.0/)
 * [`ES7`](https://www.ecma-international.org/ecma-262/7.0/)
-* [`Typescript`](https://github.com/Microsoft/TypeScript)
-* [`flow`](https://github.com/facebook/flow)
+* [`Typescript`](https://github.com/Microsoft/TypeScript)
+* [`flow`](https://github.com/facebook/flow)
 
 ### Package Manager 
 
