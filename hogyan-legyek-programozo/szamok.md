@@ -30,11 +30,11 @@ A számokat nem csak ábrázolni kell, hanem számolni is kell velük.
 A számítógép nem ér sokat, hogyha nem számolsz vele.
 Bármilyen programozási nyelvet tanulsz, előbb vagy utóbb számolnod kell, és meg kell értened, hogy egyes számítási módoknak melyek az előnyei, hátrányai és határai.
 
+Címszavak:
 - a 4 aritmetikai alapművelet (+, -, *, /)
 - milyen gyorsan hajtódnak ezek végre, melyiket a leggyorsabb és melyiket a leglassabb végrehajtani?
 - maradékképzés
 - túlcsordulás megértése
-
 - lebegőpontos számok pontossága és hibái
 - hogyan hasonlítasz össze két lebegőpontos számot, hogy egyenlőek-e?
 
