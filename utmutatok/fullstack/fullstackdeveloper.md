@@ -23,9 +23,31 @@ A fullstack fejlesztő az alkalmazás összes rétegét és annak összes stackj
 - user experience 
 - tisztában lenni az végfelhasználó igényeivel
 
+## Az alapok
+
 ### Bővebben 
 
 A `HTML` (azaz `The Hypertext Markup Language`) az alapja minden weboldalnak, vagy webalkalmazásnak. A `HTML` határozza meg a weboldal (vagy webapp) szerkezetét, struktúráját, és a tartalmát. 
+
+A `HTML` fájl `tag`-ekből, áll, aminek alapvetően két típusát különböztetjük meg:
+
+1) Önzáró tagek (_self-closing_)
+
+Pl.: 
+
+```
+<img src="./images/logo.png" alt="logo" />
+```
+
+2) 
+
+1) Nem önzáró tagek (_self-closing_)
+
+```
+<span>hello worlds</span>
+```
+
+Az összes `HTML` tag-ről elérhető egy teljes lista [itt](https://www.tutorialrepublic.com/html-reference/html5-tags.php)
 
 A `CSS` (azaz `Cascading Style Sheet`) egy egyszerű módszer arra, hogyan adjunk _stílust_ az oldalainkoz, amivel definiáljuk, hogy mi hogyan nézzen ki. 
 
@@ -62,8 +84,6 @@ A `CSS` definíciókat `.css` fájlokban tároljuk, amit aztán hozzá kell adnu
 ```
 .text { border: 1px solid #000; }
 ```
- 
-## Az alapok
 
 * [`html`](https://www.w3schools.com/html/)
 * [`css`](https://www.w3schools.com/css/)
