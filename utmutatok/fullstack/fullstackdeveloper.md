@@ -23,3 +23,69 @@ A fullstack fejlesztő az alkalmazás összes rétegét és annak összes stackj
 - user experience 
 - tisztában lenni az end-user igényeivel
  
+## Az alapok
+
+* [`html`](https://www.w3schools.com/html/)
+* [`css`](https://www.w3schools.com/css/)
+* [`javascript`](https://developer.mozilla.org/hu/docs/Web/JavaScript)
+
+## CSS 
+
+### Preprocesszorok
+
+* [`dart-sass`](https://github.com/sass/dart-sass)
+* [`less`](https://github.com/less/less.js)
+* [`stylus`](https://github.com/stylus/stylus)
+* [`post-css`](https://github.com/postcss/postcss)
+* [`css-in-js`](https://github.com/cssinjs/jss)
+* [`emotion`](https://github.com/emotion-js/emotion)
+
+### CSS frameworks 
+
+* [`bulma`](https://github.com/jgthms/bulma)
+* [`foundation`](`https://github.com/zurb/foundation-sites)
+* [`flexgrid`](https://github.com/ptb/flexgrid)
+* [`Gridlex`](https://github.com/devlint/gridlex)
+* [`Flexbox Grid`](https://github.com/kristoferjoseph/flexboxgrid)
+* [`sharps`](https://github.com/awinogradov/sharps)
+
+### Task runners 
+
+* [`npm scripts`](https://docs.npmjs.com/misc/scripts)
+* [`gulp`](https://github.com/gulpjs/gulp)
+
+### Javascript
+
+* [`ES6`](https://www.ecma-international.org/ecma-262/6.0/)
+* [`ES7`](https://www.ecma-international.org/ecma-262/7.0/)
+* [`Typescript`](https://github.com/Microsoft/TypeScript)
+* [`flow`](https://github.com/facebook/flow)
+
+### Package Manager 
+
+* [`npm`](https://github.com/npm/cli)
+* [`yarn`](https://github.com/yarnpkg/yarn)
+
+### Javascript Framework
+
+* [`react`](https://github.com/facebook/react)
+* [`preact`](https://github.com/developit/preact)
+* [`gatsbyJS`](https://github.com/gatsbyjs/gatsby)
+* [`VueJS`](https://github.com/vuejs/vue)
+* [`Angular`](https://github.com/angular/angular)
+
+### JS State 
+
+* [`redux`](https://github.com/reduxjs/redux)
+* [`mobx`](https://github.com/mobxjs/mobx)
+* [`rxjs`](https://github.com/ReactiveX/rxjs)
+* [`flux`](https://github.com/facebook/flux)
+
+### Module Lodader & Bundler
+
+* [`webpack`](https://github.com/webpack)
+
+### Design Patterns 
+
+* [`Revealing Prototype Pattern`](https://gist.github.com/zcaceres/bb0eec99c02dda6aac0e041d0d4d7bf2)
+
