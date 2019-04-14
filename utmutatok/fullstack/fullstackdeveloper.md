@@ -47,6 +47,23 @@ Pl.:
 <span>hello worlds</span>
 ```
 
+A `HTML` tageket _tulajdonságokkal_ más néven attribútumokkal tudjuk ellátni. A fenti példában, az `img` tag-nak az `src` (azaz _source_, forrás) egy attribútuomat, ami meghatározza, a fájl nevét, és a hozzá vezető útvonalat. 
+
+Vannak alapvető szabályok, amiket be kellt tartani `HTML` írása közben, ilyen például az a szabyályrendszer ami leírja, hogy adott elemnek milyen _leszármazottjai_ lehetnek.
+
+Például: 
+
+_helytelen_: 
+
+```
+<a href="demo.html">
+    <label>lorem</label>
+</a>
+```
+
+Ugyanis az `a` tag nem tartalmazhat `label` taget. Az ilyen, és ehhez hasonló hibák kijavítására való a [`w3c validator`](https://validator.w3.org/).  
+
+
 Az összes `HTML` tag-ről elérhető egy teljes lista [itt](https://www.tutorialrepublic.com/html-reference/html5-tags.php)
 
 A `CSS` (azaz `Cascading Style Sheet`) egy egyszerű módszer arra, hogyan adjunk _stílust_ az oldalainkoz, amivel definiáljuk, hogy mi hogyan nézzen ki. 
@@ -153,4 +170,3 @@ A `CSS` definíciókat `.css` fájlokban tároljuk, amit aztán hozzá kell adnu
 
 1) `w3c`
 2) [`css`](http://web.axelero.hu/fodorsi/html/css1.html)
-) ()
