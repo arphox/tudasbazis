@@ -8,7 +8,7 @@ A webes, illetve a webes alkalmazásfejlesztés hatalmasat fejlődött az elmúl
 
 A fullstack fejlesztő az alkalmazás összes rétegét és annak összes stackjét ismeri: 
 
-- Szerver, Network, és hosting ismerete
+- Szerver, Network, és hoszting ismerete
 - alkalmazás skálázhatóságának imserete 
 - cloud storage ismerete
 - adat redundancia 
@@ -21,7 +21,7 @@ A fullstack fejlesztő az alkalmazás összes rétegét és annak összes stackj
 - user interface átfogó ismerete 
 - modern frameworkok ismerete 
 - user experience 
-- tisztában lenni az end-user igényeivel
+- tisztában lenni az végfelhasználó igényeivel
 
 ### Bővebben 
 
