@@ -1,5 +1,41 @@
 # Melyik programozási nyelvet válasszam?
-Mielőtt megnéznénk a választási lehetőségeket, nézzük meg azt, hogy hogyan csoportosítjuk a programozási nyelveket.
+## Kezdőknek ajánlott programozási nyelvek
+Van egy színes-szagos [kép](https://raw.githubusercontent.com/arphox/tudasbazis/melyik_programozasi_nyelvet/kepek/melyik_programozasi_nyelvet.png) az interneten, amelyet érdemes átfutni, habár fenntartásokkal kell kezelni, helyenként elfogult lehet.
+
+> Fontos, hogy a következő nyelveket **első nyelvnek** ajánljuk. Rengeteg kiváló haladó nyelv van, amelyeket szívesen felírtunk volna a listára, de egy programozást most tanuló **kezdő** számára nem igazán megfelelőek.
+
+Először leginkább azt kell eldöntened, hogy milyen területre szeretnél programozni.
+
+### 1. Webprogramozás
+Manapság ez a legnagyobb területe a programozásnak, ezt a [2019-es SOF Dev Survey](https://insights.stackoverflow.com/survey/2019#developer-roles) is alátámasztja.
+- **Nyelvek**:
+  - Frontend: HTML **és** CSS **és** JavaScript (mindhárom szükséges; az első kettő jelölőnyelv, a harmadik programozási nyelv)
+  - Backend: JavaScript (Node.js), PHP, Java, C#
+
+### 2. Beágyazott rendszerek programozása
+Ha beágyazott hardverre szeretnél programot írni, alacsonyabb szintre kell menned.
+Itt egyértelműen C-vel érdemes kezdeni, de ha alternatívákat szeretnél, ezeket is megnézheted: C++, Java, Python, Rust; vagy ha nagyon alacsony szinten kezdenél: Assembly
+
+### 3. Mobilalkalmazások programozás
+Platformtól függően:
+- Android: **Java**
+- iOS: **Swift**
+
+Még több választási lehetőség: Kotlin, C++, C#, JavaScript, Python
+
+### 4. Asztali alkalmazások (általános célú nyelvek)
+Ha nem tudod még, hogy mivel akarsz foglalkozni, csak "simán" meg akarsz tanulni programozni, az alábbi a nyelveket ajánljuk.
+Ha aszerint szeretnél választani, hogy melyik nyelvvel lehet jelenleg a legtöbbet keresni a piacon, akkor [itt](https://insights.stackoverflow.com/survey/2019#top-paying-technologies) nézelődj, [itt](https://insights.stackoverflow.com/survey/2019#most-popular-technologies) pedig a legnépszerűbb nyelveket találod.
+
+Tehát az ajánlott általános nyelvek kezdőknek:
+- Python
+- JavaScript
+- Java
+- C#
+
+-----------------------------------------------------------
+Érdemes átolvasni azt is, hogy hogyan csoportosíthatjuk a nyelveket.
+Kezdőként nem valószínű, hogy ezt át fogod látni, de legalább egyszer olvastál róla, és legfeljebb később visszatérsz ide valami kapcsán.
 
 ## Csoportosítás
 Fontos megjegyezni, hogy sok programozási nyelv nem illeszthető be egy kategóriába, ugyanis általános célú programozási nyelvnek tekinthetőek.
@@ -47,38 +83,6 @@ Ehhez két megközelítést alkalmaznak, habár a hibrid megoldások (JIT/AOT co
 
 > _Érdekesség_: a legalacsonyabb, még nem elektronikai szinten azaz a processzor mikroarchitektúrájának szintjén interpretálás zajlik: a processzor folyamatosan kapja az utasításokat majd azonnal végrehajtja őket.
 
-----------------------------------------------------
-
-## Kezdőknek ajánlott programozási nyelvek
-Van egy színes-szagos [kép](https://raw.githubusercontent.com/arphox/tudasbazis/melyik_programozasi_nyelvet/kepek/melyik_programozasi_nyelvet.png) az interneten, amelyet érdemes átfutni, habár fenntartásokkal kell kezelni, helyenként elfogult lehet.
-
-> Fontos, hogy a következő nyelveket **első nyelvnek** ajánljuk. Rengeteg kiváló haladó nyelv van, amelyeket szívesen felírtunk volna a listára, de egy programozást most tanuló **kezdő** számára nem igazán megfelelőek.
-
-Először leginkább azt kell eldöntened, hogy milyen területre szeretnél programozni.
-
-### 1. Webprogramozás
-Manapság ez a legnagyobb területe a programozásnak, ezt a [2019-es SOF Dev Survey](https://insights.stackoverflow.com/survey/2019#developer-roles) is alátámasztja.
-- **Nyelvek**:
-  - Frontend: HTML **és** CSS **és** JavaScript (mindhárom szükséges; az első kettő jelölőnyelv, a harmadik programozási nyelv)
-  - Backend: JavaScript (Node.js), PHP, Java, C#
-
-### 2. Beágyazott rendszerek programozása
-Ha beágyazott hardverre szeretnél programot írni, alacsonyabb szintre kell menned.
-Itt egyértelműen C-vel érdemes kezdeni, de ha alternatívákat szeretnél, ezeket is megnézheted: C++, Java, Python, Rust; vagy ha nagyon alacsony szinten kezdenél: Assembly
-
-### 3. Mobilalkalmazások programozás
-Itt leginkább a **Java** javasolt kezdésnek.
-Ha iOS-re szeretnél fejleszteni, akkor **Swift**. Még több választási lehetőség: Kotlin, C++, C#, JavaScript, Python
-
-### 4. Asztali alkalmazások (általános célú nyelvek)
-Ha nem tudod még, hogy mivel akarsz foglalkozni, csak "simán" meg akarsz tanulni programozni, az alábbi a nyelveket ajánljuk.
-Ha aszerint szeretnél választani, hogy melyik nyelvvel lehet jelenleg a legtöbbet keresni a piacon, akkor [itt](https://insights.stackoverflow.com/survey/2019#top-paying-technologies) nézelődj, [itt](https://insights.stackoverflow.com/survey/2019#most-popular-technologies) pedig a legnépszerűbb nyelveket találod.
-
-Tehát az ajánlott általános nyelvek kezdőknek:
-- Python
-- JavaScript
-- Java
-- C#
 
 ----------------------------------------------------
 - **Megjegyzések**:
