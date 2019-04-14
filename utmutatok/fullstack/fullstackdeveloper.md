@@ -171,7 +171,7 @@ A `JSS` egyedi osztályneveket generál amikor a deklarált stílusok `CSS`-re k
 
 Ha használni szeretnénk valamilyen modern `javascript` frameworkot, ez a megközelítés javallott. 
 
-* [`styled-components`](https://github.com/styled-components/styled-components)
+* [`styled-components`](https://github.com/styled-components/styled-components)
 * [`css-in-js`](https://github.com/cssinjs/jss)
 * [`emotion`](https://github.com/emotion-js/emotion)
 
