@@ -30,3 +30,8 @@ A Top 10 kihasználható hibákról az OWASP oldalán tudsz olvasni (angolul) [i
 Ha szeretnél látni és gyakorolni olyan programokon amik tanítási célzatból úgy lettek megírva, hogy hibásak legyenek, akkor ajánlottak:
 - [DVWA](http://www.dvwa.co.uk/) (Web)
 - [DIVA](https://github.com/payatu/diva-android) (Android)
+
+## Biztonsági ellenőrző listák 
+
+- [PHP](https://hackernoon.com/the-ultimate-php-security-checklist-eec9895f2fa3) _angol_
+- [Node.JS](https://medium.com/@nodepractices/were-under-attack-23-node-js-security-best-practices-e33c146cb87d) _angol_
