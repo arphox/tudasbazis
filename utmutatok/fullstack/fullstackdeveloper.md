@@ -177,12 +177,12 @@ Ha használni szeretnénk valamilyen modern `javascript` frameworkot, ez a megk�
 
 ### CSS framework
 
-* [`bulma`](https://github.com/jgthms/bulma)
-* [`foundation`](`https://github.com/zurb/foundation-sites)
-* [`flexgrid`](https://github.com/ptb/flexgrid)
+* [`Bulma`](https://github.com/jgthms/bulma)
+* [`Foundation`](`https://github.com/zurb/foundation-sites)
+* [`Flexgrid`](https://github.com/ptb/flexgrid)
 * [`Gridlex`](https://github.com/devlint/gridlex)
 * [`Flexbox Grid`](https://github.com/kristoferjoseph/flexboxgrid)
-* [`sharps`](https://github.com/awinogradov/sharps)
+* [`Sharps`](https://github.com/awinogradov/sharps)
 
 ### Task runners
 
@@ -194,7 +194,7 @@ Ha használni szeretnénk valamilyen modern `javascript` frameworkot, ez a megk�
 * [`ES6`](https://www.ecma-international.org/ecma-262/6.0/)
 * [`ES7`](https://www.ecma-international.org/ecma-262/7.0/)
 * [`Typescript`](https://github.com/Microsoft/TypeScript)
-* [`flow`](https://github.com/facebook/flow)
+* [`Flow`](https://github.com/facebook/flow)
 
 ### Package Manager 
 
@@ -203,22 +203,22 @@ Ha használni szeretnénk valamilyen modern `javascript` frameworkot, ez a megk�
 
 ### Javascript Framework
 
-* [`react`](https://github.com/facebook/react)
-* [`preact`](https://github.com/developit/preact)
-* [`gatsbyJS`](https://github.com/gatsbyjs/gatsby)
+* [`React`](https://github.com/facebook/react)
+* [`Preact`](https://github.com/developit/preact)
+* [`GatsbyJS`](https://github.com/gatsbyjs/gatsby)
 * [`VueJS`](https://github.com/vuejs/vue)
 * [`Angular`](https://github.com/angular/angular)
 
 ### JS State 
 
-- [`redux`](https://github.com/reduxjs/redux)
-- [`mobx`](https://github.com/mobxjs/mobx)
-- [`rxjs`](https://github.com/ReactiveX/rxjs)
-- [`flux`](https://github.com/facebook/flux)
+- [`Redux`](https://github.com/reduxjs/redux)
+- [`Mobx`](https://github.com/mobxjs/mobx)
+- [`RxJs`](https://github.com/ReactiveX/rxjs)
+- [`Flux`](https://github.com/facebook/flux)
 
 ### Module Loader & Bundler
 
-* [`webpack`](https://github.com/webpack)
+* [`Webpack`](https://github.com/webpack)
 
 ### Design Patterns (tervezési minták)
 
