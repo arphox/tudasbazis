@@ -22,6 +22,46 @@ A fullstack fejlesztő az alkalmazás összes rétegét és annak összes stackj
 - modern frameworkok ismerete 
 - user experience 
 - tisztában lenni az end-user igényeivel
+
+### Bővebben 
+
+A `HTML` (azaz `The Hypertext Markup Language`) az alapja minden weboldalnak, vagy webalkalmazásnak. A `HTML` határozza meg a weboldal (vagy webapp) szerkezetét, struktúráját, és a tartalmát. 
+
+A `CSS` (azaz `Cascading Style Sheet`) egy egyszerű módszer arra, hogyan adjunk _stílust_ az oldalainkoz, amivel definiáljuk, hogy mi hogyan nézzen ki. 
+
+A stíluslapokon stílusmegadásokkal (stílusdefiníciókkal) formázhatjuk meg a kívánt oldalelemeket: a böngésző az itt megadott definíciók alapján fogja megjeleníteni az oldalt. A böngészők nem teljesen kompatibilisek egymással a stíluslapok használatát illetően, ezért teszteljük oldalainkat a több böngészőben, ha lehetséges, illetve a 4-esnél kisebb verziójú böngészőkben is.
+
+A `CSS` definíciókat `.css` fájlokban tároljuk, amit aztán hozzá kell adnunk a `.html` oldalainkhoz. 
+
+`<link rel="stylesheet" type="text/css" href="style.css">`
+
+#### Stílus szabályok
+ 
+ > öröklödés, szelektorok, osztályok, stb. 
+
+ A stílusok öröklődhetnek, és a tagen belüli stílusdefiníciókkal felülírhatjuk a globális stílusmegadásokat. Ez azt is jelenti, hogyha egy tag-hez tartozik globális és lokális stílusmegadás is egy adott tulajdonságra, akkor a lokálisan megadott érték felülírja a globálisan megadottat az adott helyen. (Általában a később megadott, tehát a dokumentumban lejjebb található stílusmegadás érvényesül.) De ha a stílusmegadás végén az !important kulcsszót is elhelyezzük, biztos, hogy az ott megadott stílus fog megjelenni, nem lehet lokálisan felüldefiniálni azt.
+
+ ```
+ body {
+     color: #000;
+ }
+ ```
+
+ A `html` tageket ún. osztályokkal láthatjuk el, amikkel aztán hivatkozhatunk rájuk a `css` fájlokban. 
+
+`html`:
+
+ ```
+ <p> class="text">
+ hello world
+ </p>
+ ```
+
+`css`: 
+
+```
+.text { border: 1px solid #000; }
+```
  
 ## Az alapok
 
@@ -89,3 +129,8 @@ A fullstack fejlesztő az alkalmazás összes rétegét és annak összes stackj
 
 * [`Revealing Prototype Pattern`](https://gist.github.com/zcaceres/bb0eec99c02dda6aac0e041d0d4d7bf2)
 
+# Források 
+
+1) `w3c`
+2) [`css`](http://web.axelero.hu/fodorsi/html/css1.html)
+) ()
