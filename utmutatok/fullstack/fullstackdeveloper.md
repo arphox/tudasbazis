@@ -65,7 +65,7 @@ _helytelen_:
 
 Ugyanis az `a` tag nem tartalmazhat `label` taget. Az ilyen, és ehhez hasonló hibák kijavítására való a [`w3c validator`](https://validator.w3.org/).  
 
-Az összes `HTML` tag-ről elérhető egy teljes lista [itt](https://www.tutorialrepublic.com/html-reference/html5-tags.php)
+Az összes `HTML` tag-ről elérhető egy teljes lista [itt](https://www.tutorialrepublic.com/html-reference/html5-tags.php).
 
 ### CSS
 
@@ -105,6 +105,8 @@ A `CSS` definíciókat `.css` fájlokban tároljuk, amit aztán hozzá kell adnu
 .text { border: 1px solid #000; }
 ```
 
+A `CSS` szelektorok listája megtalálható [itt](https://www.w3schools.com/cssref/css_selectors.asp). 
+
 ### Preprocesszorok
 
 * [`dart-sass`](https://github.com/sass/dart-sass)
@@ -112,7 +114,7 @@ A `CSS` definíciókat `.css` fájlokban tároljuk, amit aztán hozzá kell adnu
 * [`stylus`](https://github.com/stylus/stylus)
 * [`post-css`](https://github.com/postcss/postcss)
 
-A preprocesszorok olyan programok, amely `CSS`-t generál, a preprocesszorok saját szintaktikájából. Azeknek a hagyományos `CSS` írásával szemben olyan előnyei vannak, mint pl a változó használat, ciklusok, _nested_ szelektorok, mixinek. Ezek használatával a `CSS` írása gyorsabb, a kód tagolható, átlátható. Ezen felül segít elkerülni a kódismétlést is, amelyek nagyobb projekteknél különösen hasznos. 
+A preprocesszorok olyan programok, amelyek `CSS`-t generálnak, a preprocesszorok saját szintaktikájából. Azeknek a hagyományos `CSS` írásával szemben olyan előnyei vannak, mint pl a változó használat, ciklusok, _nested_ szelektorok, mixinek. Ezek használatával a `CSS` írása gyorsabb, a kód tagolható, átlátható. Ezen felül segít elkerülni a kódismétlést is, amelyek nagyobb projekteknél különösen hasznos. 
 
 A(z egyik legelterjettebb), a `sass`, vagy újabban `dart-sass`, ugyanis a régi `ruby` implementációja már elavulttá vált, az új verzió pedig a [`dart-sass`](https://github.com/sass/dart-sass) névre hallgat. 
 
@@ -181,7 +183,7 @@ Ha használni szeretnénk valamilyen modern `javascript` frameworkot, ez a megk�
 * [`Foundation`](`https://github.com/zurb/foundation-sites)
 * [`Flexgrid`](https://github.com/ptb/flexgrid)
 * [`Gridlex`](https://github.com/devlint/gridlex)
-* [`Flexbox Grid`](https://github.com/kristoferjoseph/flexboxgrid)
+* [`Flexbox Grid`](https://github.com/kristoferjoseph/flexboxgrid)
 * [`Sharps`](https://github.com/awinogradov/sharps)
 
 ### Task runners
