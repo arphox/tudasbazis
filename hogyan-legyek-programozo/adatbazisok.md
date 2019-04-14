@@ -17,9 +17,9 @@ Minden részletre kiterjedt csoportosítások helyett áttekintendő címszavak:
 - [adatbázis-motorok rangsorolása](https://db-engines.com/en/ranking)
 
 Alapvetően tanácsolható, hogy nézz meg minden népszerű modellből legalább egy rendszert:
-- relációs: Oracle, MySQL, Microsoft SQL Server, PostgreSQL
-- "kulcs-érték"(key-value): **Redis**, Amazon DynamoDB, Memcached, Microsoft Azure Cosmos DB
-- dokumentum alapú: **MongoDB**, Amazon DynamoDB
-- keresőmotor: Elasticsearch, Splunk, Solr
+- relációs: Oracle, [**MySQL**](https://www.mysql.com/) ([playground](https://www.db-fiddle.com/)), Microsoft SQL Server, PostgreSQL
+- "kulcs-érték"(key-value): [**Redis**](https://redis.io/) ([playground](http://try.redis.io/)), Amazon DynamoDB, Memcached, Microsoft Azure Cosmos DB
+- dokumentum alapú: [**MongoDB**](https://www.mongodb.com/) ([playground](https://mongoplayground.net/)), Amazon DynamoDB
+- keresőmotor: [**Elasticsearch**](https://www.elastic.co/) ([playground](https://www.katacoda.com/courses/elasticsearch/playground)), Splunk, Solr
 
 > Az adott modellen belül a sorrend népszerűséget jelöl, és [innen](https://db-engines.com/en/ranking) származik.
