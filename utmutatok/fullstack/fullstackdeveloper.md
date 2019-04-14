@@ -8,26 +8,26 @@ A webes, illetve a webes alkalmazásfejlesztés hatalmasat fejlődött az elmúl
 
 A fullstack fejlesztő az alkalmazás összes rétegét és annak összes stackjét ismeri: 
 
-- Szerver, Network, és hoszting ismerete
-- alkalmazás skálázhatóságának imserete 
+- Szerver, hálózat, és hosting ismerete
+- alkalmazás skálázhatóságának ismerete 
 - cloud storage ismerete
 - adat redundancia 
 - adat modellek imserete
 - relációs, nem relációs adatbázisok ismerete
 - üzleti logika ismerete
-- api réteg ismerete
-- mvc pattern ismerete 
+- API réteg ismerete
+- MVC pattern ismerete 
 - clean code alkalmazása 
 - user interface átfogó ismerete 
 - modern frameworkok ismerete 
 - user experience 
-- tisztában lenni az végfelhasználó igényeivel
+- tisztában lenni a végfelhasználó igényeivel
 
-## Az alapok
+##Alapok
 
-### Bővebben 
+### HTML
 
-A `HTML` (azaz `The Hypertext Markup Language`) az alapja minden weboldalnak, vagy webalkalmazásnak. A `HTML` határozza meg a weboldal (vagy webapp) szerkezetét, struktúráját, és a tartalmát. 
+A `HTML` (azaz `Hypertext Markup Language`) az alapja minden weboldalnak, vagy webalkalmazásnak. A `HTML` határozza meg a weboldal (vagy webapp) szerkezetét, struktúráját, és a tartalmát. 
 
 A `HTML` fájl `tag`-ekből, áll, aminek alapvetően két típusát különböztetjük meg:
 
@@ -39,9 +39,9 @@ Pl.:
 <img src="./images/logo.png" alt="logo" />
 ```
 
-2) 
+2) Önzáró tagek (_self-closing_)
 
-1) Nem önzáró tagek (_self-closing_)
+1) Nem önzáró tagek (_non-self-closing_)
 
 ```
 <span>hello worlds</span>
@@ -66,7 +66,13 @@ Ugyanis az `a` tag nem tartalmazhat `label` taget. Az ilyen, és ehhez hasonló 
 
 Az összes `HTML` tag-ről elérhető egy teljes lista [itt](https://www.tutorialrepublic.com/html-reference/html5-tags.php)
 
-A `CSS` (azaz `Cascading Style Sheet`) egy egyszerű módszer arra, hogyan adjunk _stílust_ az oldalainkoz, amivel definiáljuk, hogy mi hogyan nézzen ki. 
+#### HTML Frameworkok
+
+
+
+### CSS
+
+A `CSS` (azaz `Cascading Style Sheet`) egy egyszerű módszer arra, hogy adjunk _stílusokat_ adjunk az oldalainkoz, amikkel definiáljuk, hogy mi hogyan nézzen ki. 
 
 A stíluslapokon stílusmegadásokkal (stílusdefiníciókkal) formázhatjuk meg a kívánt oldalelemeket: a böngésző az itt megadott definíciók alapján fogja megjeleníteni az oldalt. A böngészők nem teljesen kompatibilisek egymással a stíluslapok használatát illetően, ezért teszteljük oldalainkat a több böngészőben, ha lehetséges, illetve a 4-esnél kisebb verziójú böngészőkben is.
 
@@ -106,14 +112,75 @@ A `CSS` definíciókat `.css` fájlokban tároljuk, amit aztán hozzá kell adnu
 * [`css`](https://www.w3schools.com/css/)
 * [`javascript`](https://developer.mozilla.org/hu/docs/Web/JavaScript)
 
-## CSS 
 
-### Preprocesszorok
+#### Preprocesszorok
 
 * [`dart-sass`](https://github.com/sass/dart-sass)
 * [`less`](https://github.com/less/less.js)
 * [`stylus`](https://github.com/stylus/stylus)
 * [`post-css`](https://github.com/postcss/postcss)
+
+A preprocesszorok olyan programok, amely `CSS`-t generál, a preprocesszorok saját szintaktikájából. Azeknek a hagyományos `CSS` írásával szemben olyan előnyei vannak, mint pl a változó használat, ciklusok, _nested_ szelektorok, mixinek. Ezek használatával a `CSS` írása gyorsabb, a kód tagolható, átlátható. Ezen felül segít elkerülni a kódismétlést is, amelyek nagyobb projekteknél különösen hasznos. 
+
+A(z egyik legelterjettebb), a `sass`, vagy újabban `dart-sass`, ugyanis a régi `ruby` implementációja már elavulttá vált, az új verzió pedig a [`dart-sass`](https://github.com/sass/dart-sass) névre hallgat. 
+
+_natív_ `CSS` kód: 
+
+```
+body p { color: #fff; }
+
+```
+
+A fenti selector a `body`-tagkben az összes `p` tagban lévő szöveg színét fehérre állítja. 
+
+Ugyanez, az `SCSS` által is biztosított ún _beágyazott_ (nested) szintaktikával a következőképpen alakul: 
+
+```
+body {
+    p {
+        color: #fff;
+    }
+}
+```
+
+Majd pedig a fordító az `.scss` fájlunkból készít `.css`-t. 
+
+Az `dart-sass`, a `less`, és a `stylus` is hasonló módon működik. Néhány szintaktikai eltérés van ezek között, azonban az közös, hogy mindegyiket _natív_ `CSS`-re kell fordítani, amiket a megszokott módon be kell húzni a `HTML` fájlokba. 
+
+Ezek használata akkor javallott, ha semmilyen front-end frameworkot (amikről lentebb lesz szó) nem használunk, azaz lényegében a _hagyományos_ módon építünk weboldalat. 
+
+Ezeken felül van még néhány `css-in-js` elképzelésen alapuló megoldás is. Lényeges különsbég az `SCSS`, `LESS` és társai között, hogy ezekből nem lesz _natív_ `CSS` kód, hiszen ahogy a neve is mutatja, ezek a `CSS` deklarációk `Javascript`-ben lesznek, pl. egy javascript  [`objektumban`](http://gabor.molnar.es/blog/2013/05/05/javascript-programozas-jegyzet-objektumok/).
+
+```
+const Title = styled.div`
+    color: #fff;
+    padding: .5rem;
+    color: #000;
+`;
+```
+
+Ezt a megoldást akkor érdemes használni, ha valami Javascript frameworkot használunk, vagy szeretnénk használni egy jövőbeli projekthez.  A fenti példa a [`styled-components`](https://github.com/styled-components/styled-components) nevű, `ReactJS`-ez írt komponens _formázó_ csomag (_pacakge_). 
+
+A `styled-components`-en kívül, a `JSS`, ami framework független, de az elve ugyanaz: 
+
+```
+const styles = {
+  '@global': {
+    body: {
+      color: '###'
+    }
+}
+```
+
+`CSS`-hez nagyon hasonlító stílus deklarációkat írunk, de `JS` szintaktikával. 
+
+Ezek előnyei: 
+
+A `JSS` egyedi osztályneveket generál amikor a deklarált stílusok `CSS`-re konvertálódnak. Ez azt a problémát oldja meg, hogy modern web komponensek fejlesztésekor a stílusok között átfedés (`conflit`) lépjen fel. Természetesen, ha haználunk bármilyen konvenciót, ez a probléma nem is lépethe fel, azonban nagyon gyorsan, nagyon átláthatlan és csúnya `CSS`-t kapnánk, ami jelentősen ront a skálázhatósági faktoron is. 
+
+Ha használni szeretnénk valamilyen modern `javascript` frameworkot, ez a megközelítés javallott. 
+
+* [`styled-components](https://github.com/styled-components/styled-components)
 * [`css-in-js`](https://github.com/cssinjs/jss)
 * [`emotion`](https://github.com/emotion-js/emotion)
 
@@ -126,7 +193,7 @@ A `CSS` definíciókat `.css` fájlokban tároljuk, amit aztán hozzá kell adnu
 * [`Flexbox Grid`](https://github.com/kristoferjoseph/flexboxgrid)
 * [`sharps`](https://github.com/awinogradov/sharps)
 
-### Task runners 
+### Task runners
 
 * [`npm scripts`](https://docs.npmjs.com/misc/scripts)
 * [`gulp`](https://github.com/gulpjs/gulp)
@@ -158,7 +225,7 @@ A `CSS` definíciókat `.css` fájlokban tároljuk, amit aztán hozzá kell adnu
 * [`rxjs`](https://github.com/ReactiveX/rxjs)
 * [`flux`](https://github.com/facebook/flux)
 
-### Module Lodader & Bundler
+### Module Loader & Bundler
 
 * [`webpack`](https://github.com/webpack)
 
