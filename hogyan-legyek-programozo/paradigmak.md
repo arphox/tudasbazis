@@ -6,17 +6,33 @@ A programozási paradigmák elméleti modellek, amelyek a programozás gondolkod
 > **Fontos**: a programozási paradigma és a programozási nyelv nem ugyanaz! Inkább úgy gondolj erre, hogy egy programozási nyelv egy vagy több programozási paradigmát "implementál".
 
 ## Csoportosítás
-- Imperatív
-  - Procedurális
-  - Objektum-orientált
-- Deklaratív
-  - Funkcionális
-  - Logikai
-  - Matematikai
+- imperatív
+  - procedurális
+  - objektumorientált
+- deklaratív
+  - funkcionális
+  - logikai
+  - matematikai
   
 Gyakorlatban a manapság leggyakrabban használt paradigmák:
 - általános fejlesztés során: főként **objektum-orientált** (OOP), kis részben **funkcionális**
 - adatbázisok fejlesztése során: **deklaratív** (SQL, ami egy főleg deklaratív [DSL](https://en.wikipedia.org/wiki/Domain-specific_language))
 
--------------------------------------------
-Források: [wikipedia](https://en.wikipedia.org/wiki/Programming_paradigm)
+### Objektumorientált programozás
+Az objektumorientált programozást használják manapság a legtöbb helyen, így ennek a gondolkodásmódnak egy külön részt szentelünk.
+
+**Címszavak**:
+- az objektumorientált programozás alapelvei
+  - absztrakció (abstraction)
+  - egységbezárás (encapsulation)
+  - öröklődés (inheritance)
+  - többalakúság (polymorphism)
+- osztályok és objektumok
+- tervezési alapelvek: SOLID, GRASP
+- tervezési minták (design patterns) (GoF (Gang of Four))
+
+
+---------
+Források:
+
+Wikipédia: [Programming_paradigm](https://en.wikipedia.org/wiki/Programming_paradigm), [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
