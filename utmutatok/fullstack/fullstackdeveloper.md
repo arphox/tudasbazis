@@ -25,6 +25,10 @@ A fullstack fejlesztő az alkalmazás összes rétegét és annak összes stackj
 
 ##Alapok
 
+* [`html`](https://www.w3schools.com/html/)
+* [`css`](https://www.w3schools.com/css/)
+* [`javascript`](https://developer.mozilla.org/hu/docs/Web/JavaScript)
+
 ### HTML
 
 A `HTML` (azaz `Hypertext Markup Language`) az alapja minden weboldalnak, vagy webalkalmazásnak. A `HTML` határozza meg a weboldal (vagy webes alkalmazás) szerkezetét, struktúráját, és a tartalmát. 
@@ -100,11 +104,6 @@ A `CSS` definíciókat `.css` fájlokban tároljuk, amit aztán hozzá kell adnu
 ```
 .text { border: 1px solid #000; }
 ```
-
-* [`html`](https://www.w3schools.com/html/)
-* [`css`](https://www.w3schools.com/css/)
-* [`javascript`](https://developer.mozilla.org/hu/docs/Web/JavaScript)
-
 
 ### Preprocesszorok
 
