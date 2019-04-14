@@ -12,7 +12,7 @@ A fullstack fejlesztő az alkalmazás összes rétegét és annak összes stackj
 - alkalmazás skálázhatóságának ismerete 
 - cloud storage ismerete
 - adat redundancia 
-- adat modellek imserete
+- adat modellek ismerete
 - relációs, nem relációs adatbázisok ismerete
 - üzleti logika ismerete
 - API réteg ismerete
@@ -27,29 +27,27 @@ A fullstack fejlesztő az alkalmazás összes rétegét és annak összes stackj
 
 ### HTML
 
-A `HTML` (azaz `Hypertext Markup Language`) az alapja minden weboldalnak, vagy webalkalmazásnak. A `HTML` határozza meg a weboldal (vagy webapp) szerkezetét, struktúráját, és a tartalmát. 
+A `HTML` (azaz `Hypertext Markup Language`) az alapja minden weboldalnak, vagy webalkalmazásnak. A `HTML` határozza meg a weboldal (vagy webes alkalmazás) szerkezetét, struktúráját, és a tartalmát. 
 
-A `HTML` fájl `tag`-ekből, áll, aminek alapvetően két típusát különböztetjük meg:
+A `HTML` fájl `tag`-ekből áll, aminek alapvetően két típusát különböztetjük meg:
 
-1) Önzáró tagek (_self-closing_)
+1. Önzáró tagek (_self-closing_)
+1) Nem önzáró tagek (_non-self-closing_)
 
-Pl.: 
+Önzáró pl.: 
 
 ```
 <img src="./images/logo.png" alt="logo" />
 ```
 
-2) Önzáró tagek (_self-closing_)
-
-1) Nem önzáró tagek (_non-self-closing_)
-
+Nem önzáró pl.: 
 ```
 <span>hello worlds</span>
 ```
 
-A `HTML` tageket _tulajdonságokkal_ más néven attribútumokkal tudjuk ellátni. A fenti példában, az `img` tag-nak az `src` (azaz _source_, forrás) egy attribútuomat, ami meghatározza, a fájl nevét, és a hozzá vezető útvonalat. 
+A `HTML` tageket _tulajdonságokkal_ (más néven attribútumokkal) tudjuk ellátni. A fenti példában, az `img` tag-nak az `src` (azaz _source_, forrás) egy attribútuma, ami meghatározza a fájl nevét, és a hozzá vezető útvonalat. 
 
-Vannak alapvető szabályok, amiket be kellt tartani `HTML` írása közben, ilyen például az a szabyályrendszer ami leírja, hogy adott elemnek milyen _leszármazottjai_ lehetnek.
+Vannak alapvető szabályok, amiket be kell tartani `HTML` írása közben, ilyen például az a szabyályrendszer ami leírja, hogy adott elemnek milyen _leszármazottjai_ lehetnek.
 
 Például: 
 
@@ -63,12 +61,7 @@ _helytelen_:
 
 Ugyanis az `a` tag nem tartalmazhat `label` taget. Az ilyen, és ehhez hasonló hibák kijavítására való a [`w3c validator`](https://validator.w3.org/).  
 
-
 Az összes `HTML` tag-ről elérhető egy teljes lista [itt](https://www.tutorialrepublic.com/html-reference/html5-tags.php)
-
-#### HTML Frameworkok
-
-
 
 ### CSS
 
@@ -113,7 +106,7 @@ A `CSS` definíciókat `.css` fájlokban tároljuk, amit aztán hozzá kell adnu
 * [`javascript`](https://developer.mozilla.org/hu/docs/Web/JavaScript)
 
 
-#### Preprocesszorok
+### Preprocesszorok
 
 * [`dart-sass`](https://github.com/sass/dart-sass)
 * [`less`](https://github.com/less/less.js)
@@ -184,7 +177,7 @@ Ha használni szeretnénk valamilyen modern `javascript` frameworkot, ez a megk�
 * [`css-in-js`](https://github.com/cssinjs/jss)
 * [`emotion`](https://github.com/emotion-js/emotion)
 
-### CSS frameworks 
+### CSS framework
 
 * [`bulma`](https://github.com/jgthms/bulma)
 * [`foundation`](`https://github.com/zurb/foundation-sites)
@@ -195,10 +188,10 @@ Ha használni szeretnénk valamilyen modern `javascript` frameworkot, ez a megk�
 
 ### Task runners
 
-* [`npm scripts`](https://docs.npmjs.com/misc/scripts)
-* [`gulp`](https://github.com/gulpjs/gulp)
+- [`npm scripts`](https://docs.npmjs.com/misc/scripts)
+- [`gulp`](https://github.com/gulpjs/gulp)
 
-### Javascript
+### Javascript
 
 * [`ES6`](https://www.ecma-international.org/ecma-262/6.0/)
 * [`ES7`](https://www.ecma-international.org/ecma-262/7.0/)
@@ -220,16 +213,16 @@ Ha használni szeretnénk valamilyen modern `javascript` frameworkot, ez a megk�
 
 ### JS State 
 
-* [`redux`](https://github.com/reduxjs/redux)
-* [`mobx`](https://github.com/mobxjs/mobx)
-* [`rxjs`](https://github.com/ReactiveX/rxjs)
-* [`flux`](https://github.com/facebook/flux)
+- [`redux`](https://github.com/reduxjs/redux)
+- [`mobx`](https://github.com/mobxjs/mobx)
+- [`rxjs`](https://github.com/ReactiveX/rxjs)
+- [`flux`](https://github.com/facebook/flux)
 
 ### Module Loader & Bundler
 
 * [`webpack`](https://github.com/webpack)
 
-### Design Patterns 
+### Design Patterns (tervezési minták)
 
 * [`Revealing Prototype Pattern`](https://gist.github.com/zcaceres/bb0eec99c02dda6aac0e041d0d4d7bf2)
 
