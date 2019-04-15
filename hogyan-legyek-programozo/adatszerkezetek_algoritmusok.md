@@ -107,4 +107,4 @@ Néhány példafeladat erre:
 
 -------------------------------------------------
 Források:
-- [ELTE progalap](http://progalap.elte.hu/downloads/seged/eTananyag/)
+- [ELTE IK Programozási Alapismeretek](http://progalap.elte.hu/downloads/seged/eTananyag/)
