@@ -23,7 +23,7 @@ A fullstack fejlesztő az alkalmazás összes rétegét és annak összes stackj
 - user experience 
 - tisztában lenni a végfelhasználó igényeivel
 
-##Alapok
+## Alapok
 
 * [`html`](https://www.w3schools.com/html/)
 * [`css`](https://www.w3schools.com/css/)
