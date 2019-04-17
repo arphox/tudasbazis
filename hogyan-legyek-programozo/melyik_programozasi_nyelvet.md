@@ -11,17 +11,22 @@ Manapság ez a legnagyobb területe a programozásnak, ezt a [2019-es SOF Dev Su
 - **Nyelvek**:
   - Frontend: HTML **és** CSS **és** JavaScript (mindhárom szükséges; az első kettő jelölőnyelv, a harmadik programozási nyelv)
     - [TypeScript](https://github.com/Microsoft/TypeScript),
-  - Backend: JavaScript (Node.js), PHP, Java, C#, .NET
+  - Backend: JavaScript (Node.js), PHP, Java, C#, ASP .NET
 
 ### 2. Beágyazott rendszerek programozása
 Ha beágyazott hardverre szeretnél programot írni, alacsonyabb szintre kell menned.
-Itt egyértelműen C-vel érdemes kezdeni, de ha alternatívákat szeretnél, ezeket is megnézheted: C++, Java, Python, Rust; vagy ha nagyon alacsony szinten kezdenél: Assembly
+Itt egyértelműen C-vel érdemes kezdeni, ott értheted meg csak igazán a beágyazott rendszerek lelki világát, de ha egy kicsit könnyebb és kezdő-barátibb szeretnél, akkor érdemes az arduinoval kezdeni. Ezt programozhatod már c és c++ nyelven is és nagyon sok előre megírt könyvtár van hozzá. Szintúgy nagyon sok előre elkésíztett hardveres modul van a motorokon, szivattyúkon, hőmérőkön keresztül egészen a különböző relékig. Ehhez kapcsolódó, illetve ritkén, de használható nyelvek: Java, Python, Rust, Javascript, LUA; vagy ha nagyon alacsony szinten kezdenél (segítség és előismeretek nélkül nem ajánlott): Assembly
+
+Munkában ha iylen területről van szó, akkor a legtöbb helyen C nyelvet használnak, így a fent sorolt alternatívák javarészt hobbira, vagy néhány ritka esetre használatosak.
 
 ### 3. Mobilalkalmazások programozás
-Platformtól függően:
+Platformtól függően (leggyakrabban):
 - Android: **Java**
 - iOS: **Swift**
 
+Ezeken kívül van több univerzális fejlesztőkörnyezet ami a megírt kódunkat több eszközre is le tudja fordítani egyszerre (például Android és iOS). Ilyenek többek között a:
+- Xamarin
+- Unity
 Még több választási lehetőség: Kotlin, C++, C#, JavaScript, Python
 
 ### 4. Asztali alkalmazások (általános célú nyelvek)
