@@ -10,8 +10,8 @@ Először leginkább azt kell eldöntened, hogy milyen területre szeretnél pro
 Manapság ez a legnagyobb területe a programozásnak, ezt a [2019-es SOF Dev Survey](https://insights.stackoverflow.com/survey/2019#developer-roles) is alátámasztja.
 - **Nyelvek**:
   - Frontend: HTML **és** CSS **és** JavaScript (mindhárom szükséges; az első kettő jelölőnyelv, a harmadik programozási nyelv)
-    - [TypeScript](https://github.com/Microsoft/TypeScript),
-  - Backend: JavaScript (Node.js), PHP, Java, C#, ASP .NET
+    - [TypeScript](https://github.com/Microsoft/TypeScript)
+  - Backend: JavaScript (Node.js), PHP, Java, C#, ASP.NET MVC
 
 ### 2. Beágyazott rendszerek programozása
 Ha beágyazott hardverre szeretnél programot írni, alacsonyabb szintre kell menned.
@@ -24,10 +24,11 @@ Platformtól függően (leggyakrabban):
 - Android: **Java**
 - iOS: **Swift**
 
+Még több választási lehetőség: Kotlin, C++, C#, JavaScript, Python
+
 Ezeken kívül van több univerzális fejlesztőkörnyezet ami a megírt kódunkat több eszközre is le tudja fordítani egyszerre (például Android és iOS). Ilyenek többek között a:
 - Xamarin
 - Unity
-Még több választási lehetőség: Kotlin, C++, C#, JavaScript, Python
 
 ### 4. Asztali alkalmazások (általános célú nyelvek)
 Ha nem tudod még, hogy mivel akarsz foglalkozni, csak "simán" meg akarsz tanulni programozni, az alábbi a nyelveket ajánljuk.
