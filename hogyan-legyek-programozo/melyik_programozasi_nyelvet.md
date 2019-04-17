@@ -10,7 +10,8 @@ Először leginkább azt kell eldöntened, hogy milyen területre szeretnél pro
 Manapság ez a legnagyobb területe a programozásnak, ezt a [2019-es SOF Dev Survey](https://insights.stackoverflow.com/survey/2019#developer-roles) is alátámasztja.
 - **Nyelvek**:
   - Frontend: HTML **és** CSS **és** JavaScript (mindhárom szükséges; az első kettő jelölőnyelv, a harmadik programozási nyelv)
-  - Backend: JavaScript (Node.js), PHP, Java, C#
+    - (TypeScript)[https://github.com/Microsoft/TypeScript], 
+  - Backend: JavaScript (Node.js), PHP, Java, C#, .NET
 
 ### 2. Beágyazott rendszerek programozása
 Ha beágyazott hardverre szeretnél programot írni, alacsonyabb szintre kell menned.
