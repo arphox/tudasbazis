@@ -1,6 +1,6 @@
 # Programozási paradigmák
 
-A programozási paradigmákat azért fontos megismerni, mert megismerésük során szélesebb képet kapsz arról, hogy hogyan is lehetséges programozni.
+A [programozási paradigmák](https://hu.wikipedia.org/wiki/Programoz%C3%A1si_paradigma)at azért fontos megismerni, mert megismerésük során szélesebb képet kapsz arról, hogy hogyan is lehetséges programozni.
 A programozási paradigmák elméleti modellek, amelyek a programozás gondolkodási módját, stílusát adják meg.
 
 > **Fontos**: a programozási paradigma és a programozási nyelv nem ugyanaz! Inkább úgy gondolj erre, hogy egy programozási nyelv egy vagy több programozási paradigmát "implementál".
